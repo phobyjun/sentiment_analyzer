@@ -3,8 +3,8 @@ import urllib.request
 
 
 def translator(text):
-    client_id = "ccORMBttXr6oHMotJgmz"
-    client_secret = "cFe8TpSh3K"
+    client_id = "CLIENT_ID"
+    client_secret = "CLIENT_SECRET"
 
     encText = urllib.parse.quote(text)
 
